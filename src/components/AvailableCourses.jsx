@@ -13,7 +13,7 @@ const AvailableCourses = () => {
             Available Courses
           </h2>
         </section>
-        <p className="leto-regular text-lg text-center">
+        <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut veniam
           in optio cum.
         </p>

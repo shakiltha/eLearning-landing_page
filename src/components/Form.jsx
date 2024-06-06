@@ -3,7 +3,7 @@ import { useState } from "react";
 const Form = () => {
   const [focused, setFocused] = useState(false);
   const style = {
-    boxShadow: focused ? "0 0 8px rgba(0, 0, 0, 0.5" : "none",
+    boxShadow: focused ? "0 0 8px rgba(0, 0, 0, 0.5)" : "none",
   };
   const setToFocused = () => setFocused(true);
   const setToUnfocused = () => setFocused(false);

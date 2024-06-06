@@ -2,63 +2,92 @@ const Pricing = () => {
   return (
     <div>
       <section>
-        <section>
-          <h3>Pricing</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor Lorem ipsum dolor sit amet
-          </p>
+        <section className="flex justify-center">
+          <h3 className="roboto-bold text-2xl md:text-4xl pl-2 border-l-2 border-l-[#024547] text-center">
+            Pricing
+          </h3>
         </section>
+        <p className="leto-regular text-lg text-center">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor Lorem ipsum dolor sit amet
+        </p>
       </section>
       <section>
-        <section>
-          <div>
-            <span>Advanced</span>
-            <span>Popular</span>
+        <section className="border w-[311px] h-[380px] mx-auto shadow-2xl p-7 my-3 rounded-lg">
+          <div className="flex justify-between">
+            <span className="lato-regular">Advanced</span>
+            <span className="lato-regular text-sm text-white bg-[#FF9F1C] rounded-xl p-1">
+              Popular
+            </span>
           </div>
-          <div>
-            <span>$19.99</span>
-            <span>Per month</span>
+          <div className="mt-5">
+            <span className="roboto-bold text-2xl md:text-3xl">$19.99</span>
+            <span className="roboto-regular ml-10">Per month</span>
           </div>
           <p>
-            <img src="" alt="" />
-            <span>All Features</span>
+            <section className="mt-2">
+              {/* check mark symbol - html code */}
+              <span className="text-lg mr-4">&#10003;</span>
+              <span className="lato-regular text-lg">All Features</span>
+            </section>
           </p>
           <p>
-            <img src="" alt="" />
-            <span>All Courses</span>
+            <section className="mt-2">
+              <span className="text-lg mr-4">&#10003;</span>
+              <span className="lato-regular text-lg">All Courses</span>
+            </section>
           </p>
           <p>
-            <img src="" alt="" />
-            <span>Unlimited Cloud Storage</span>
+            <section className="mt-2">
+              <span className="text-lg mr-4">&#10003;</span>
+              <span className="lato-regular text-lg">
+                Unlimited Cloud Storage
+              </span>
+            </section>
           </p>
           <p>
-            <img src="" alt="" />
-            <span>Flexible Expert Sessions</span>
+            <section className="mt-2">
+              <span className="text-lg mr-4">&#10003;</span>
+              <span className="lato-regular text-lg">
+                Flexible Expert Sessions
+              </span>
+            </section>
           </p>
+          <button className="w-60 h-14 bg-[#CC9D42] text-white rounded-xl mt-10 roboto-regular">
+            Buy now
+          </button>
         </section>
-        <section>
-          <div>
-            <span>Advanced</span>
-            <span>Popular</span>
-          </div>
-          <div>
-            <span>$9.99</span>
-            <span>Per month</span>
-          </div>
-          <p>
-            <img src="" alt="" />
-            <span>Limited Features</span>
-          </p>
-          <p>
-            <img src="" alt="" />
-            <span>Limited Courses</span>
-          </p>
-          <p>
-            <img src="" alt="" />
-            <span>Limited Cloud Storage</span>
-          </p>
-        </section>
+      </section>
+      <section className="border w-[311px] h-[380px] mx-auto shadow-2xl p-7 my-3 rounded-lg">
+        <div className="flex justify-between">
+          <span className="lato-regular">Basic</span>
+        </div>
+        <div className="mt-5">
+          <span className="roboto-bold text-2xl md:text-3xl">$9.99</span>
+          <span className="roboto-regular ml-10">Per month</span>
+        </div>
+        <p>
+          <section className="mt-2">
+            {/* check mark symbol - html code */}
+            <span className="text-lg mr-4">&#10003;</span>
+            <span className="lato-regular text-lg">Limited features</span>
+          </section>
+        </p>
+        <p>
+          <section className="mt-2">
+            <span className="text-lg mr-4">&#10003;</span>
+            <span className="lato-regular text-lg">Limited Courses</span>
+          </section>
+        </p>
+        <p>
+          <section className="mt-2">
+            <span className="text-lg mr-4">&#10003;</span>
+            <span className="lato-regular text-lg">Limited Cloud Storage</span>
+          </section>
+        </p>
+        <button className="w-60 h-14 bg-[#CC9D42] text-white rounded-xl mt-10 roboto-regular">
+          Buy now
+        </button>
       </section>
     </div>
   );
