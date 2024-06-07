@@ -5,19 +5,19 @@ import icon4 from "../assets/Group 197.png";
 
 const WhyChoose = () => {
   return (
-    <div>
+    <div className="xl:flex xl:mb-20">
       <div>
-        <section className="flex justify-center">
+        <section className="flex justify-center xl:justify-start xl:ml-5">
           <h2 className="roboto-bold text-2xl md:text-4xl pl-2 border-l-2 border-l-[#024547]">
             Why choose e-learn
           </h2>
         </section>
-        <p className="leto-regular text-lg text-center">
+        <p className="leto-regular text-lg text-center xl:text-left xl:ml-5 xl:mt-4">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor Lorem ipsum dolor sit amet
         </p>
       </div>
-      <div>
+      <div className="xl:grid xl:grid-cols-2 xl:grid-rows-2 xl:gap-3">
         <section className="mt-4 ml-3">
           <img src={icon1} alt="" />
           <h5 className="roboto-medium text-2xl mt-2">Course accessibility</h5>

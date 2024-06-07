@@ -2,7 +2,6 @@ import "./App.css";
 import background from "./assets/Background.png";
 import AvailableCourses from "./components/AvailableCourses";
 import Footer from "./components/Footer";
-import Form from "./components/Form";
 import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import StudentTrust from "./components/StudentTrust";
@@ -21,7 +20,6 @@ function App() {
           <span className="ml-1">Learn</span>
         </h4>
         <Hero />
-        <Form />
         <StudentTrust />
         <WhyChoose />
         <AvailableCourses />

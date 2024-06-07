@@ -5,7 +5,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div className="max-w-screen-2xl mx-auto relative border-2 border-blue-800">
+    <div className="max-w-screen-2xl mx-auto relative border-blue-800">
       <App />
     </div>
   </React.StrictMode>

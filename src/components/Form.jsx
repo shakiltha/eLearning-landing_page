@@ -9,7 +9,7 @@ const Form = () => {
   const setToUnfocused = () => setFocused(false);
   return (
     <div
-      className="lg:w-[436px] lg:h-[546px] bg-white p-3 mt-[5rem] border-2 mx-2"
+      className="lg:w-[436px] lg:h-[546px] bg-white p-3 mt-[5rem] border-2 mx-2 flex flex-col justify-center items-center"
       style={style}
     >
       <h4 className="roboto-bold text-2xl md:text-3xl">Become a Member</h4>
