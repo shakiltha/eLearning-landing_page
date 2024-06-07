@@ -10,7 +10,7 @@ const Testimonials = () => {
         </h3>
       </section>
       <div className="md:flex">
-        <section className="w-[350px] h-[250px] lg:w-[561px]  mx-auto border shadow-xl mt-4 p-2">
+        <section className="w-[350px] h-[250px] lg:w-[561px]  mx-auto border shadow-xl mt-4 p-2 xl:-mr-6">
           <div>
             <img src={profile1} alt="" />
             <h4 className="roboto-bold text-lg">Josh brallins</h4>
