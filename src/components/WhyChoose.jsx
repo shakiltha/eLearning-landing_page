@@ -5,7 +5,7 @@ import icon4 from "../assets/Group 197.png";
 
 const WhyChoose = () => {
   return (
-    <div className="xl:flex xl:mb-20">
+    <div className="lg:flex lg:items-center xl:mb-20 mt-80 md:mt-20">
       <div>
         <section className="flex justify-center xl:justify-start xl:ml-5">
           <h2 className="roboto-bold text-2xl md:text-4xl pl-2 border-l-2 border-l-[#024547]">

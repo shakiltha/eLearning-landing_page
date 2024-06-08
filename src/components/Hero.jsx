@@ -2,8 +2,8 @@ import Form from "./Form";
 
 const Hero = () => {
   return (
-    <div className="flex justify-center xl:justify-around xl:top-7 xl:w-full items-center absolute top-0">
-      <div className="mx-2  lg:w-[507px] lg:h-[285px] -mt-[150px] xl:mt-9">
+    <div className="flex flex-col lg:flex-row justify-center xl:justify-around xl:top-7 xl:w-full items-center absolute top-0">
+      <div className="mx-2  lg:w-[507px] lg:h-[285px] -mt-[150px] mt-24 xl:mt-9">
         <h3 className="roboto-bold text-3xl md:text-4xl lg:text-5xl z-10">
           Take great online Courses from anywhere in the world
         </h3>
