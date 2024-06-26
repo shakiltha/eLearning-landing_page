@@ -8,8 +8,9 @@ const Pricing = () => {
           </h3>
         </section>
         <p className="leto-regular text-lg text-center xl:text-left">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor Lorem ipsum dolor sit amet
+          E-learning offers a range of pricing options to fit your needs.
+          Individual courses can be very affordable, while subscription plans
+          provide access to a vast library for a monthly fee.
         </p>
       </section>
       <section className="md:flex xl:gap-4">

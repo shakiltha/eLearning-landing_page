@@ -3,7 +3,7 @@ import microsoft from "../assets/microsoft.png";
 
 const StudentTrust = () => {
   return (
-    <div className="mt-56 md:mt-[480px] lg:mt-[100px] mb-20 lg:flex">
+    <div className="mt-[55rem] md:mt-[480px] lg:mt-[100px] mb-20 lg:flex">
       <div className="flex justify-around my-5 lg:flex-1">
         <section>
           <h4 className="roboto-bold text-2xl md:text-4xl">23,000+</h4>

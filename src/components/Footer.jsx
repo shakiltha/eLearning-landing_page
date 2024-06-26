@@ -17,11 +17,13 @@ const Footer = () => {
         <Form />
         <div className="m-2 lg:w-96 xl:w-full lg:text-center">
           <h3 className="roboto-bold text-2xl md:text-3xl lg:text-4xl">
-            Lorem ipsum dolor sit amet, consetetur
+            Unlock Your Potential: Learn on Your Terms
           </h3>
           <p className="lato-regular text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-            aut voluptatum fugiat non?
+            Empower yourself with in-demand skills and knowledge through our
+            engaging and flexible e-learning platform. We offer a wide range of
+            courses designed to fit your busy schedule, so you can learn
+            anytime, anywhere.
           </p>
           <p className="roboto-regular text-center xl:absolute xl:mt-96 xl:ml-64">
             &copy; 2021 Octet Design Studio
